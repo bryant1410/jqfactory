@@ -7,7 +7,7 @@ jqfactory
 
 [![Build Status](https://travis-ci.org/gfranko/jqfactory.png?branch=master)](https://travis-ci.org/gfranko/jqfactory)
 
-##Notable Features
+## Notable Features
  - Supports jQuery prototype namespacing and event namespacing
  - Includes an elegant, promises-based, solution for plugins that rely on asynchronous behavior on initialization
  - AMD support
@@ -18,13 +18,13 @@ jqfactory
  - Prevents multiple plugin initializations per element
  - Provides a jQuery plugin pseudo selector to query for all DOM elements that have called the plugin
 
-##Requirements
+## Requirements
 jQuery 1.8.3+
 
-##Browser support
+## Browser support
 IE8+, Modern Browsers
 
-##Quick Start
+## Quick Start
 1.  Download **jQuery 1.8.3+** and **jqfactory**, create your plugin file, and include them all as `script` tags on an HTML page
     ```html
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
@@ -36,7 +36,7 @@ IE8+, Modern Browsers
 
 2.  Start building your jQuery plugin with **jqfactory**!
 
-##Developer Guide
+## Developer Guide
 
 **Note:** All methods used in this section are referenced in the _API_ documentation (further down)
 
@@ -356,9 +356,9 @@ IE8+, Modern Browsers
     Continue building on top of jqfactory and make great plugins!
 
 
-##API
+## API
 
-###Properties
+### Properties
 
 **_super** - A reference to the parent widget object (can be overriden)
 
@@ -383,7 +383,7 @@ IE8+, Modern Browsers
 **jqfactory** - A convenience property that contains the $.jqfactory.common object
 
 
-###Methods
+### Methods
 
  **$.jqfactory(String namespace.name, Object properties, Boolean enforceNamespace)**
 
@@ -649,7 +649,7 @@ this.option({ 'someOption': 'example', 'someOtherOption.someNestedOption': 'anot
 this.option({ 'someOption': 'example', 'someOtherOption': { 'someNestedOption': 'anotherExample' } });
 ```
 
-###Default Events
+### Default Events
 
 **Note**: All events are triggered with the event namespace (e.g. `setOption.person-greg`)
 
@@ -667,7 +667,7 @@ this.option({ 'someOption': 'example', 'someOtherOption': { 'someNestedOption': 
 
 **setOption** - Triggered when the `option()` method is called to set a single option
 
-##FAQ
+## FAQ
 
 __Should I use this instead of the jQueryUI Widget Factory?__
 
@@ -753,7 +753,7 @@ __When would I use the _superMethod method?__
     }
  ```
 
-##Changelog
+## Changelog
 
 `0.3.0` - July 26, 2013
 
@@ -772,10 +772,10 @@ __When would I use the _superMethod method?__
 
  - Initial Release!
 
-##Contributors
+## Contributors
  [Greg Franko](https://github.com/gfranko)
 
-##License
+## License
  Copyright (c) 2013 Greg Franko Licensed under the MIT license.
 
 
